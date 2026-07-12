@@ -1,0 +1,31 @@
+{
+    "id": "law-and-obligation-foundry",
+    "title": "Law and Obligation",
+    "description": "A full Foundry VTT conversion of the Cosmere RPG adventure 'Law and Obligation' - pregens, adversaries, scenes, journals, macros, and rollable tables, importable as a single module.",
+    "version": "1.0.0",
+    "compatibility": {
+          "minimum": "13",
+          "verified": "13.351"
+    },
+    "relationships": {
+          "systems": [
+                  {
+                            "id": "cosmere-rpg",
+                            "type": "system",
+                            "compatibility": {
+                                        "verified": "2.1.0"
+                            }
+                  }
+          ]
+    },
+    "packs": [
+          { "name": "law-obligation-actors", "label": "Law & Obligation: Actors", "path": "packs/actors", "type": "Actor" },
+          { "name": "law-obligation-items", "label": "Law & Obligation: Items", "path": "packs/items", "type": "Item" },
+          { "name": "law-obligation-journals", "label": "Law & Obligation: Journals", "path": "packs/journals", "type": "JournalEntry" },
+          { "name": "law-obligation-scenes", "label": "Law & Obligation: Scenes", "path": "packs/scenes", "type": "Scene" },
+          { "name": "law-obligation-macros", "label": "Law & Obligation: Macros", "path": "packs/macros", "type": "Macro" },
+          { "name": "law-obligation-tables", "label": "Law & Obligation: Tables", "path": "packs/tables", "type": "RollTable" },
+          { "name": "law-obligation-playlists", "label": "Law & Obligation: Playlists", "path": "packs/playlists", "type": "Playlist" }
+    ],
+    "esmodules": ["scripts/init.js"]
+}
